@@ -10,7 +10,7 @@
 }
 
 .container{
-    width: 75%;
+    width: 80%;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
 }
@@ -57,13 +57,14 @@ ul{
 .banner-img{
     background-image: url(img/banner.jpg);
     width: 100%;
-    height: 100vh;
+    height: 600px;
+    margin: auto;
     margin-top: 10px;
     border-radius: 10px;
     background-repeat: no-repeat;
     position: relative;
-    /* background-position: center; */
-    /* background-size: cover; */
+    background-position: center;
+    background-size: cover;
     /* filter: brightness(90%); */
     
 }
@@ -73,7 +74,7 @@ ul{
     width: 50%;
     margin-left: 10px;
     color: white;
-    top: 50%;
+    top: 70%;
     position: absolute;
     
 }
@@ -94,6 +95,9 @@ main{
 .float-elements{
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: red; */
 }
 
 .side-col{
@@ -115,7 +119,7 @@ main{
     border-radius: 10px;
     filter: brightness(90%);  
     top: 50%;
-    /* height: 150px; */
+    height: 150px;
 }
 
 .left-img{
@@ -129,13 +133,13 @@ main{
 
 .middle-img{
     background-image: url(img/banner-2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    /* width: 100%;  */
+    width: 100%; 
     border-radius: 10px;
     filter: brightness(90%);  
-    /* height: 150px; */
+    height: 150px;
+    /* background-repeat: no-repeat; */
 }
 
 .little-title{
@@ -145,7 +149,7 @@ main{
 
 footer{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
     /* height: 45px; */
 }
